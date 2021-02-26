@@ -8,7 +8,7 @@
         {
           "type": "text",
           "style": "plain",
-          "foreground": "#ffffff",
+          "foreground": "#c7c7c7",
           "properties": {
             "prefix": "",
             "text": "Drieze ",
@@ -20,7 +20,7 @@
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#ffffff",
-          "background": "#0037DA",
+          "background": "#1478DB",
           "properties": {
             "folder_icon": "...",
             "style": "agnoster"
@@ -31,9 +31,9 @@
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#000000",
-          "background": "#13A10E",
+          "background": "#3AD900",
           "properties": {
-            "local_changes_color": "#C19C00",
+            "local_changes_color": "#ffc600",
             "status_colors_enabled": true,
             "branch_icon": " ",
             "local_working_icon": "",
@@ -69,7 +69,7 @@
         {
           "type": "text",
           "style": "plain",
-          "foreground": "#ffffff",
+          "foreground": "#ffff00",
           "properties": {
             "prefix": "",
             "text": "\u276F"
