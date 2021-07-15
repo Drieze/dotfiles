@@ -2,28 +2,21 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
+      "type": "newline"
+    },
+    {
       "type": "prompt",
       "alignment": "left",
       "segments": [
         {
-          "type": "text",
-          "style": "plain",
-          "foreground": "#c7c7c7",
-          "properties": {
-            "prefix": "",
-            "text": "Drieze ",
-            "postfix": ""
-          }
-        },
-        {
           "type": "path",
-          "style": "powerline",
-          "powerline_symbol": "\uE0B0",
+          "style": "diamond",
+          "leading_diamond": "\uE0B6",
+          "trailing_diamond": "\uE0B0",
           "foreground": "#ffffff",
           "background": "#1478DB",
           "properties": {
-            "folder_icon": "...",
-            "style": "agnoster"
+            "style": "full"
           }
         },
         {
