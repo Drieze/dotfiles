@@ -23,3 +23,9 @@ Enjoy!
  
 
 ## PowerShell
+```powershell
+Install-Module oh-my-posh -Scope CurrentUser
+Install-Module posh-git -Scope CurrentUser -Force
+Install-Module PSReadLine
+Install-Module -Name Terminal-Icons -Repository PSGallery
+```
