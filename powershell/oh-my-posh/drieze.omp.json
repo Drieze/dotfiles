@@ -30,7 +30,19 @@
             "status_colors_enabled": true,
             "branch_icon": " ",
             "local_working_icon": "",
-            "local_staged_icon": ""
+            "local_staged_icon": "",
+            "prefix": " \uF408  "
+          }
+        },
+        {
+          "type": "dotnet",
+          "style": "diamond",
+          "leading_diamond": "<transparent,#00ffff>\uE0B0</>",
+          "trailing_diamond": "\uE0B0",
+          "foreground": "#000000",
+          "background": "#00ffff",
+          "properties": {
+            "prefix": " \uE77F "
           }
         },
         {
