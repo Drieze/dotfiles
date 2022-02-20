@@ -35,17 +35,6 @@
           }
         },
         {
-          "type": "dotnet",
-          "style": "diamond",
-          "leading_diamond": "<transparent,#00ffff>\uE0B0</>",
-          "trailing_diamond": "\uE0B0",
-          "foreground": "#000000",
-          "background": "#00ffff",
-          "properties": {
-            "prefix": " \uE77F "
-          }
-        },
-        {
           "type": "python",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
