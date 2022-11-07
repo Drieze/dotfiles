@@ -1,7 +1,7 @@
 #Oh my posh
 Import-Module posh-git
-Import-Module oh-my-posh
-Set-PoshPrompt -Theme drieze
+oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/drieze.omp.json" | Invoke-Expression
 
 #Intellisense
 Import-Module PSReadLine
