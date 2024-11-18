@@ -49,10 +49,12 @@ return
 
 CapsLock & i::
     Send {Up}
+    ControlSend, OneNote::DocumentCanvas1,{up 1},ahk_exe ONENOTE.EXE
 return
 
 CapsLock & k::
     Send {Down}
+    ControlSend, OneNote::DocumentCanvas1,{down 1},ahk_exe ONENOTE.EXE
 return
 
 CapsLock & j::
