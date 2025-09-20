@@ -1,6 +1,6 @@
+#Requires AutoHotkey v2.0
 #NoTrayIcon
-
-SetCapsLockState, AlwaysOff
+SetCapsLockState("AlwaysOff")
 
 /*   
 | Shortcut                         | Output                           |
@@ -10,34 +10,37 @@ SetCapsLockState, AlwaysOff
 | CAPSLOCK + { r, f }              | { PageUp, PageDown }             |
 */
 
-CapsLock & w::
-    Send {Up}
-return
+CapsLock & w:: {
+    Send("{Up}")
+}
 
-CapsLock & s::
-    Send {Down}
-return
+CapsLock & s:: {
+    Send("{Down}")
+}
 
-CapsLock & a::
-    Send {Left}
-return
+CapsLock & a:: {
+    Send("{Left}")
+}
 
-CapsLock & d::
-    Send {Right}
-return
+CapsLock & d:: {
+    Send("{Right}")
+}
 
-CapsLock & q::
-    Send {Home}
-return
+CapsLock & q:: {
+    Send("{Home}")
+}
 
-CapsLock & e::
-    Send {End}
-return
+CapsLock & e:: {
+    Send("{End}")
+}
 
-CapsLock & r:: send, {PgUp}
-CapsLock & f:: send, {PgDn}
+CapsLock & r:: {
+    Send("{PgUp}")
+}
 
-return
+CapsLock & f:: {
+    Send("{PgDn}")
+}
 
 /* 
 | Shortcut                         | Output                           |
@@ -47,33 +50,36 @@ return
 | CAPSLOCK + { y, h }              | { PageUp, PageDown }             |
 */
 
-CapsLock & i::
-    Send {Up}
-    ControlSend, OneNote::DocumentCanvas1,{up 1},ahk_exe ONENOTE.EXE
-return
+CapsLock & i:: {
+    Send("{Up}")
+    ControlSend("{Up}", "OneNote::DocumentCanvas1", "ahk_exe ONENOTE.EXE")
+}
 
-CapsLock & k::
-    Send {Down}
-    ControlSend, OneNote::DocumentCanvas1,{down 1},ahk_exe ONENOTE.EXE
-return
+CapsLock & k:: {
+    Send("{Down}")
+    ControlSend("{Down}", "OneNote::DocumentCanvas1", "ahk_exe ONENOTE.EXE")
+}
 
-CapsLock & j::
-    Send {Left}
-return
+CapsLock & j:: {
+    Send("{Left}")
+}
 
-CapsLock & l::
-    Send {Right}
-return
+CapsLock & l:: {
+    Send("{Right}")
+}
 
-CapsLock & u::
-    Send {Home}
-return
+CapsLock & u:: {
+    Send("{Home}")
+}
 
-CapsLock & o::
-    Send {End}
-return
+CapsLock & o:: {
+    Send("{End}")
+}
 
-CapsLock & y:: send, {PgUp}
-CapsLock & h:: send, {PgDn}
+CapsLock & y:: {
+    Send("{PgUp}")
+}
 
-return
+CapsLock & h:: {
+    Send("{PgDn}")
+}
